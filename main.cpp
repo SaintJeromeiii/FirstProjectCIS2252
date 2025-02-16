@@ -27,20 +27,20 @@ int main()
     cout << "Enter the first month" << endl;
     cin >> monthOne;
 
-    cout << "How many inches did it rain" << endl;
+    cout << "How many inches did it rain?" << endl;
     cin >> rainOne;
 
-    cout << "Enter the second month" << endl;
+    cout << "Enter the second month?" << endl;
     cin >> monthTwo;
 
-    cout << "How many inches did it rain" << endl;
+    cout << "How many inches did it rain?" << endl;
     cin >> rainTwo;
 
 
     cout << "Enter the third month" << endl;
     cin >> monthThree;
 
-    cout << "How many inches did it rain" << '\n';
+    cout << "How many inches did it rain?" << '\n';
     cin >> rainThree;
 
     cout<< "The average monthly rainfall for "<< monthOne << " , "<< monthTwo << " and " << monthThree << " was " << (rainOne + rainTwo + rainThree) / 3 << endl;
